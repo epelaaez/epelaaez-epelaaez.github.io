@@ -1,0 +1,34 @@
+---
+---
+
+@misc{pelaez2023aces,
+  title={Average circuit eigenvalue sampling on noisy intermediate-scale quantum devices},
+  journal={Quantum Latino Conference},
+  abstract={Average circuit eigenvalue sampling (ACES) was introduced in arXiv:2108.05803 as a protocol to characterize the Pauli error channels of individual gates simultaneously. An open problem the paper left was a fleshed-out step-by-step procedure for the implementation of the protocol. An obvious step forward from the original paper is running ACES in a near-term experiment. This work advances in this direction by presenting a full implementation of ACES for real devices, along with a more accurate and device-tailored resource estimation obtained through empirical simulations. Simulations show that ACES is able to estimate non-uniform depolarizing error channels to high accuracy with 10^5 shots per circuit executed. The question of estimating general error channels through twirling techniques in real devices remains open, as it is dependent on a device’s native gates, but simulations with the Clifford set as a native gateset show promising results. Real-hardware results on IBM's Manila and Belem devices are presented, where we approximate their error channels as Pauli channels without twirling.},
+  author={Pel{\'a}ez, Emilio},
+  year={2023},
+  selected={true},
+  url={https://quantum-latino.com/program/},
+  preview={quantum-latino-conference.png},
+  slides={quantum-latino-conference.pdf},
+}
+
+@misc{pelaez2021toffoli,
+  title={On the recursive construction of relative phased multiple controlled Toffoli},
+  author={Pham, Minh and Pel{\'a}ez, Emilio},
+  abstract={We propose an efficient construction for multiple controlled-NOT gates that allows for relative phase difference in the output of the gate and uses no additional qubits other than n control qubits and one target qubit. We employ a recursive construction using three base cases: the phaseless CNOT, the phased Toffoli, and the phased triple controlled-NOT; the latter two are known constructions from previous literature on the subject. To prove its correctness, we use the method of exhaustion, checking all different gate and parameter combinations. Finally, we derive an upper bound on the complexity of our technique and compare it to the recently known construction of complexity 9n + O(1) CNOT gates.},
+  url={https://youtu.be/aqxQykylCOs?si=0Rrc9JW8yxBty1_Y},
+  year={2021},
+  journal={People Interested in Quantum Universal Education},
+  preview={toffoli-talk.png},
+}
+
+@misc{pelaez2021oracles,
+  title={Creación de Oráculos para Algoritmos Cuánticos (Oracle Creation for Quantum Algorithms)},
+  author={Pel{\'a}ez, Emilio},
+  abstract={En este taller exploraremos la construcción de oráculos para diferentes algoritmos. Dando ejemplos en algoritmos concretos como el algoritmo de Grover y el problema 3-SAT, y definiendo el concepto de un oráculo de manera formal y la manera en que podemos traducirlo a un circuito eficientemente.},
+  journal={Quantum Hackathon CIC-IPN for Qiskit's Fall Fest},
+  year={2021},
+  url={https://youtu.be/zyp2_S8u1TU?si=qKfCYl_7pJ1z7i9p},
+  preview={ipn-hackathon.png},
+}
