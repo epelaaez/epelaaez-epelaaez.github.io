@@ -117,10 +117,10 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: # blog # blog_name will be displayed in your blog page
+blog_name: blog # blog_name will be displayed in your blog page
 blog_nav_title:  # your blog must have a title for it to be displayed in the nav bar
 blog_description: # all posts originally published in <a href="https://medium.com/@epelaezc", target="_blank">medium</a>
-permalink: # /blog/:year/:title/
+permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
@@ -134,8 +134,8 @@ related_blog_posts:
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  # - name: medium.com
-  #   rss_url: https://medium.com/@epelaezc/feed
+  - name: 
+    rss_url: 
 
 # -----------------------------------------------------------------------------
 # Collections
